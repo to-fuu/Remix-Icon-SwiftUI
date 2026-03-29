@@ -3,7 +3,7 @@
 
 import SwiftUI
 
-extension ImageAsset {
+public extension ImageAsset {
     @available(iOS 13.0, *)
     func asIcon(_ size: CGFloat = 18.0) -> some View {
         self.swiftUIImage
